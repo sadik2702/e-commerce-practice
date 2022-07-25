@@ -31,18 +31,18 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Shoes</a>
+                <a class="nav-link" href="#shoes">Shoes</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Backpack</a>
+                <a class="nav-link" href="#backpack">Backpack</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link">Subscribe</a>
+                <a class="nav-link" href="#subscribe">Subscribe</a>
               </li>
             </ul>
           </div>
@@ -175,7 +175,7 @@
     </section>
     <!-- categories end -->
     <!-- shoes section start -->
-    <section class="container my-5">
+    <section class="container my-5" id="shoes">
         <p class="h2">Shoes</p>
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
             <div class="col">
@@ -215,7 +215,66 @@
           </div>
     </section>
     <!-- shoes section end -->
+
+       <!-- backpack section start -->
+       <section class="container my-5" id="backpack">
+        <p class="h2">Backpack</p>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ogio Red</h5>
+                  <p class="card-text">It is the most comfotable bag for all types of people. If you want light weight, comfort and stylish shoe buy this now without wasting a secoend.</p>
+                  <p class="h5">$120</p>
+                  <button class="btn bg-danger bg-gradient text-light px-4">Buy Now >></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">13Urton</h5>
+                  <p class="card-text">It is the most comfotable bag for all types of people. If you want light weight, comfort and stylish shoe buy this now without wasting a secoend.</p>
+                  <p class="h5">$320</p>
+                  <button class="btn bg-danger bg-gradient text-light px-4">Buy Now >></button>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border-0 shadow-lg">
+                <img src="images/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Katmandu Black</h5>
+                  <p class="card-text">It is the most comfotable shoes for all types of people. If you want light weight, comfort and stylish shoe buy this now without wasting a secoend.</p>
+                  <p class="h5">$350</p>
+                  <button class="btn bg-danger bg-gradient text-light px-4">Buy Now >></button>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+    </section>
+    <!-- bag section end -->
+    <!-- subscribe start -->
+    <section class="container bg-info d-flex justify-content-center align-items-center rounded p-5 m-5" id="subscribe">
+       <div>
+        <p class="h2">Let's stay in touch</p>
+        <p>Get updates on sales, specials and more</p>
+        <form>
+            <div class="mb-1">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+       </div>
+    </section>
+    <!-- subscribe end -->
 </main>
+<footer>
+    <p class="text-center">©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
+</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
